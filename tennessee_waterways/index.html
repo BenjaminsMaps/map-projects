@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset=utf-8 />
+	<title>Waterways of Tennessee</title>
+	<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css" />
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+
+	<!-- Font Awesome for icons -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			background: #d3d3d3;
+			font-family: 'Open Sans', sans-serif;
+			font-weight: 400;
+			color: #3d3d3d;
+		}
+
+		section {
+			width: 80%;
+			margin: 20px auto;
+		}
+
+		h1 {
+			font-family: 'Open Sans', sans-serif;
+			font-weight: 300;
+			font-size: 2.5em; /* The em unit. 3x the current size */
+			letter-spacing: .04em;
+			text-transform: uppercase;
+		}
+
+		h2 {
+			font-family: 'Open Sans', sans-serif;
+			font-weight: 700;
+			color: gray;
+			font-size: 1.25em;
+			letter-spacing: .04em;
+		}
+
+		p {
+			font-size: 1em;
+			line-height: 1em;
+		}
+
+		a {
+			color: #005daa;
+			text-decoration: none;
+		}
+
+		a:hover {
+			text-decoration: underline;
+		}
+
+		ul {
+			padding-left: 20px;
+		}
+
+		li {
+			margin: 10px 0
+		}
+
+		i {
+			padding-right: 12px;
+		}
+
+
+		#map {
+			width: 100%;
+			margin: 10px auto;
+			border: 2px solid #d3d3d3;
+		}
+
+		.max-image-size {
+			width: 100%;
+		}
+		.image-link {
+			display: block;
+			margin: 10px 0;
+		}
+
+	</style>
+</head>
+
+<body>
+	<section>
+
+		<!-- This is an HTML comment. Find the comments below and follow the instructions. -->
+
+		<h1>Tennessee Waterways</h1>
+
+		<div id='map'>
+				<img src="waterways/tn_waterways_1200px.png" alt="Major waterways of Tennessee" class="max-image-size">
+				<br/>
+				<a href="waterways/tn_waterways_8000px.png" target="_blank" class="image-link">Higher resolution version</a>
+				<br/>
+		</div>
+
+		<!-- Add you information below -->
+		<h2>Authored by: Ben Hazlerig</h2>
+		<p>Map compiled by Ben Hazlerig. April 2018.</p>
+		<p>Software used: QGIS 3.0 using PostGis on macOS 10.13</p>
+		<p>Data Source: <a href="https://nationalmap.gov/small_scale/atlasftp.html" target="blank">The National Map Small-Scale website</a></p>
+		<p>Scale of 1:1,000,000</p>
+		<br/>
+
+		<!-- Change the following contacts to your personal brand, whatever you want it to be! -->
+		<a href="https://github.com/BenjaminsMaps"><i style="color:Gray" class="fab fa-github-square fa-2x"></i></a>
+		<a href="https://twitter.com/BenHazlerig"><i style="color:#00aced" class="fab fa-twitter fa-2x"></i></a>
+		<a href="https://benjaminsmaps.github.io/"><i style="color:#5DB5A4" class="far fa-map fa-2x"></i></a>
+	</section>
+
+</body>
+
+</html>
